@@ -1,0 +1,22 @@
+{
+    "name": "kris/floorplan",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Kris\\Floorplan\\": "src/",
+            "Kris\\Floorplan\\Application\\": "src/Application/",
+            "Kris\\Floorplan\\Infrastructure\\": "src/Infrastructure/",
+            "Kris\\Floorplan\\InterfaceAdapters\\": "src/InterfaceAdapters/"
+            
+        }
+    },
+    "authors": [
+        {
+            "name": "kris mcfarland",
+            "email": "mcfarland.kris@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}
