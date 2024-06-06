@@ -1,0 +1,426 @@
+<PhysicalProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <Property IDValue="b342e58c-f5ba-4c63-b050-cf44439bb37d" OrganizationName="ResMan" IDType="PropertyID">
+   <PropertyID>
+     <MarketingName>Frontline Fairways</MarketingName>
+     <WebSite>frontlinefairways.com</WebSite>
+     <Address AddressType="Property">
+       <AddressLine1>1538 Main Ranch Rd</AddressLine1>
+       <City>San Antonio</City>
+       <State>TX</State>
+       <PostalCode>78245</PostalCode>
+       <Country>United States</Country>
+     </Address>
+     <Phone PhoneType="personal">
+       <PhoneNumber>(210) 674-1111</PhoneNumber>
+     </Phone>
+     <Phone PhoneType="fax">
+       <PhoneNumber>(210) 674-2222</PhoneNumber>
+     </Phone>
+     <Email>noreply@frontlinefairways.com</Email>
+   </PropertyID>
+   <ILS_Identification ILS_IdentificationType="Unspecified" RentalType="Unspecified">
+     <Latitude>29.42729</Latitude>
+     <Longitude>-98.652874</Longitude>
+   </ILS_Identification>
+   <Information>
+     <StructureType>Unspecified</StructureType>
+     <BuildingCount>17</BuildingCount>
+     <UnitCount>287</UnitCount>
+     <OfficeHour>
+       <OpenTime>2:00 PM</OpenTime>
+       <CloseTime>4:00 PM</CloseTime>
+       <Day>Sunday</Day>
+     </OfficeHour>
+     <OfficeHour>
+       <OpenTime>8:00 AM</OpenTime>
+       <CloseTime>10:00 AM</CloseTime>
+       <Day>Sunday</Day>
+     </OfficeHour>
+     <OfficeHour>
+       <OpenTime>8:00 AM</OpenTime>
+       <CloseTime>6:00 PM</CloseTime>
+       <Day>Monday</Day>
+     </OfficeHour>
+     <OfficeHour>
+       <OpenTime>8:00 AM</OpenTime>
+       <CloseTime>6:00 PM</CloseTime>
+       <Day>Tuesday</Day>
+     </OfficeHour>
+     <OfficeHour>
+       <OpenTime>8:00 AM</OpenTime>
+       <CloseTime>6:00 PM</CloseTime>
+       <Day>Wednesday</Day>
+     </OfficeHour>
+     <OfficeHour>
+       <OpenTime>8:00 AM</OpenTime>
+       <CloseTime>6:00 PM</CloseTime>
+       <Day>Thursday</Day>
+     </OfficeHour>
+     <OfficeHour>
+       <OpenTime>8:00 AM</OpenTime>
+       <CloseTime>6:00 PM</CloseTime>
+       <Day>Friday</Day>
+     </OfficeHour>
+     <OfficeHour>
+       <OpenTime>10:00 AM</OpenTime>
+       <CloseTime>4:00 PM</CloseTime>
+       <Day>Saturday</Day>
+     </OfficeHour>
+     <ShortDescription>Property short description</ShortDescription>
+     <LongDescription>Property long description</LongDescription>
+     <LeaseLength>9, 12, 16, and 18 month leases</LeaseLength>
+     <DrivingDirections>Driving directions to the property</DrivingDirections>
+     <PropertyAvailabilityURL>https://demo.myresman.com/Portal/Applicants/Availability?a=400&amp;p=b342e58c-f5ba-4c63-b050-cf44439bb37d</PropertyAvailabilityURL>
+   </Information>
+   <Fee>
+     <ProrateType>DaysInMonth</ProrateType>
+     <LateType>Flat</LateType>
+     <LatePercent>0</LatePercent>
+     <LateMinFee>10.0000</LateMinFee>
+     <LateFeePerDay>50.0000</LateFeePerDay>
+     <NonRefundableHoldFee>0</NonRefundableHoldFee>
+     <AdminFee>100.0000</AdminFee>
+     <ApplicationFee>49.0000</ApplicationFee>
+     <BrokerFee>0</BrokerFee>
+   </Fee>
+   <Amenity AmenityType="CarWashArea">
+     <Description>Free Car Wash</Description>
+   </Amenity>
+   <Amenity AmenityType="Pool">
+     <Description>Community Pool</Description>
+   </Amenity>
+   <Amenity AmenityType="BusinessCenter">
+     <Description>24 Hour Business Center</Description>
+   </Amenity>
+   <Amenity AmenityType="VolleyballCourt">
+     <Description>Volleyball Court</Description>
+   </Amenity>
+   <Building IDValue="15" OrganizationName="ResMan" IDType="Name">
+     <BuildingType>Unspecified</BuildingType>
+     <Name>15</Name>
+     <Description />
+     <UnitCount>24</UnitCount>
+     <SquareFeet>0</SquareFeet>
+   </Building>
+   <Building IDValue="11" OrganizationName="ResMan" IDType="Name">
+     <BuildingType>Unspecified</BuildingType>
+     <Name>11</Name>
+     <Description />
+     <UnitCount>12</UnitCount>
+     <SquareFeet>0</SquareFeet>
+   </Building>
+   <Floorplan IDValue="A1" OrganizationName="ResMan" IDType="Name">
+     <Name>One Bedroom, One Bath</Name>
+     <Comment>The Krista is our one bedroom, one bathroom apartment home of 587 sq ft. This gorgeous floor plan has an open concept in the living room &amp; kitchen area. There is a tremendous amount of cabinetry and counter space for you to enjoy within your kitchen. The Krista has additional storage space in the coat closet by the entrance. In your living room, you have a large window view that allows you to enjoy the outdoor scenery. The Krista also has a large walk-in closet and a beautiful vanity area in your bathroom that is located in the bedroom.  </Comment>
+     <UnitCount>76</UnitCount>
+     <UnitsAvailable>1</UnitsAvailable>
+     <Room RoomType="Bedroom">
+       <Count>1</Count>
+       <Comment />
+     </Room>
+     <Room RoomType="Bathroom">
+       <Count>1.0</Count>
+       <Comment />
+     </Room>
+     <SquareFeet Avg="587" Min="587" Max="587" />
+     <MarketRent Min="695" Max="715" />
+     <EffectiveRent Avg="681" Min="665" Max="715" />
+     <Deposit DepositType="deposit">
+       <Amount AmountType="Actual">
+         <ValueRange Exact="100.00" />
+       </Amount>
+       <Description>Escrow Deposit Paid In</Description>
+       <PercentRefundable>100</PercentRefundable>
+       <PortionRefundable>100</PortionRefundable>
+     </Deposit>
+     <File FileID="" Active="true">
+       <FileType>Floorplan</FileType>
+       <Name>floorplan-krista.jpg</Name>
+       <Format />
+       <Src>https://resman.blob.core.windows.net/demo-public/d6855366-63ff-4ccd-ab36-e6f15c916226.jpg</Src>
+       <Rank />
+     </File>
+     <File FileID="26978c6f-3ece-4310-a953-f184a24fdf23" Active="true">
+       <FileType>Photo</FileType>
+       <Name>Inside.jpg</Name>
+       <Format />
+       <Src>https://resman.blob.core.windows.net/demo-public/105f5355-93fd-4a65-8f25-fa630caa7dfb.jpg</Src>
+       <Rank />
+     </File>
+   </Floorplan>
+   <Floorplan IDValue="A2" OrganizationName="ResMan" IDType="Name">
+     <Name>One Bedroom, One Bath</Name>
+     <Comment>The Madeline has a built-in office and a spacious bathroom area conveniently located in the hallway for when guests arrive. You have a large coat closet at the entryway to accommodate guests' coats and personal items as they come in. The Madeline also has a breakfast bar countertop available for you to enjoy a quick breakfast on your way out. In addition, the Madeline has a separate dining area with an outdoor view while enjoying your meal. The Madeline has an enormous bedroom that has a 3-faced walk-in closet that allows you to store as much as you can. </Comment>
+     <UnitCount>48</UnitCount>
+     <UnitsAvailable>3</UnitsAvailable>
+     <Room RoomType="Bedroom">
+       <Count>1</Count>
+       <Comment />
+     </Room>
+     <Room RoomType="Bathroom">
+       <Count>1.0</Count>
+       <Comment />
+     </Room>
+     <SquareFeet Avg="734" Min="734" Max="734" />
+     <MarketRent Min="780" Max="787" />
+     <EffectiveRent Avg="768" Min="753" Max="787" />
+     <Deposit DepositType="deposit">
+       <Amount AmountType="Actual">
+         <ValueRange Exact="100.00" />
+       </Amount>
+       <Description>Escrow Deposit Paid In</Description>
+       <PercentRefundable>100</PercentRefundable>
+       <PortionRefundable>100</PortionRefundable>
+     </Deposit>
+     <File FileID="" Active="true">
+       <FileType>Floorplan</FileType>
+       <Name>Floorplan Madeline</Name>
+       <Format />
+       <Src>https://resman.blob.core.windows.net/demo-public/68eaf3e1-6560-4ab1-b399-0b889c39cf33.jpg</Src>
+       <Rank />
+     </File>
+     <File FileID="ca3cc28d-a452-415c-addb-e14ddb135299" Active="true">
+       <FileType>Photo</FileType>
+       <Name>Inside2.jpg</Name>
+       <Format />
+       <Src>https://resman.blob.core.windows.net/demo-public/ffee572f-818b-4194-b73f-65dae1f57621.jpg</Src>
+       <Rank />
+     </File>
+   </Floorplan>
+   <ILS_Unit IDValue="206" OrganizationName="ResMan" IDType="Number">
+     <Units>
+       <Unit>
+         <Identification IDValue="206" OrganizationName="ResMan" IDType="Number" />
+         <MarketingName>206</MarketingName>
+         <UnitType>A1</UnitType>
+         <UnitBedrooms>1</UnitBedrooms>
+         <UnitBathrooms>1</UnitBathrooms>
+         <MinSquareFeet>587</MinSquareFeet>
+         <MaxSquareFeet>587</MaxSquareFeet>
+         <MarketRent>695</MarketRent>
+         <UnitEconomicStatus>residential</UnitEconomicStatus>
+         <UnitOccupancyStatus>occupied</UnitOccupancyStatus>
+         <UnitLeasedStatus>leased</UnitLeasedStatus>
+         <FloorplanName>One Bedroom, One Bath</FloorplanName>
+         <BuildingName>2</BuildingName>
+         <Address AddressType="property">
+           <AddressLine1>2636 Grand Aveee 206</AddressLine1>
+           <City>San Diego</City>
+           <State>CA</State>
+           <PostalCode>92109</PostalCode>
+           <Country />
+         </Address>
+       </Unit>
+     </Units>
+     <Pricing>
+       <MITS-OfferTerm>
+         <EffectiveRent>695.00</EffectiveRent>
+         <Term>12</Term>
+       </MITS-OfferTerm>
+       <MITS-OfferTerm>
+         <EffectiveRent>690.00</EffectiveRent>
+         <Term>14</Term>
+       </MITS-OfferTerm>
+       <MITS-OfferTerm>
+         <EffectiveRent>685.00</EffectiveRent>
+         <Term>16</Term>
+       </MITS-OfferTerm>
+       <MITS-OfferTerm>
+         <EffectiveRent>675.00</EffectiveRent>
+         <Term>18</Term>
+       </MITS-OfferTerm>
+       <MITS-OfferTerm>
+         <EffectiveRent>670.00</EffectiveRent>
+         <Term>20</Term>
+       </MITS-OfferTerm>
+       <MITS-OfferTerm>
+         <EffectiveRent>668.00</EffectiveRent>
+         <Term>22</Term>
+       </MITS-OfferTerm>
+       <MITS-OfferTerm>
+         <EffectiveRent>665.00</EffectiveRent>
+         <Term>24</Term>
+       </MITS-OfferTerm>
+     </Pricing>
+     <EffectiveRent Avg="678" Min="665" Max="695" />
+     <Deposit DepositType="deposit">
+       <Amount AmountType="Actual">
+         <ValueRange Exact="100.00" />
+       </Amount>
+       <Description>Escrow Deposit Paid In</Description>
+       <PercentRefundable>100</PercentRefundable>
+       <PortionRefundable>100</PortionRefundable>
+     </Deposit>
+     <FloorLevel>2</FloorLevel>
+     <Availability>
+       <VacancyClass>Occupied</VacancyClass>
+     </Availability>
+   </ILS_Unit>
+   <ILS_Unit IDValue="1101" OrganizationName="ResMan" IDType="Number">
+     <Units>
+       <Unit>
+         <Identification IDValue="1101" OrganizationName="ResMan" IDType="Number" />
+         <MarketingName>1101</MarketingName>
+         <UnitType>B1</UnitType>
+         <UnitBedrooms>1</UnitBedrooms>
+         <UnitBathrooms>2</UnitBathrooms>
+         <MinSquareFeet>881</MinSquareFeet>
+         <MaxSquareFeet>881</MaxSquareFeet>
+         <MarketRent>905</MarketRent>
+         <UnitEconomicStatus>residential</UnitEconomicStatus>
+         <UnitOccupancyStatus>vacant</UnitOccupancyStatus>
+         <UnitLeasedStatus>available</UnitLeasedStatus>
+         <FloorplanName>Two Bedroom, One Bath</FloorplanName>
+         <BuildingName>1</BuildingName>
+         <Address AddressType="property">
+           <AddressLine1>1538 Cable Ranch Rd.</AddressLine1>
+           <City>San Antonio</City>
+           <State>TX</State>
+           <PostalCode>78245</PostalCode>
+         </Address>
+       </Unit>
+     </Units>
+     <Pricing>
+       <MITS-OfferTerm>
+         <EffectiveRent>905.00</EffectiveRent>
+         <Term>12</Term>
+       </MITS-OfferTerm>
+     </Pricing>
+     <EffectiveRent Avg="905" Min="905" Max="905" />
+     <Deposit DepositType="deposit">
+       <Amount AmountType="Actual">
+         <ValueRange Exact="200.00" />
+       </Amount>
+       <Description>Escrow Deposit Paid In</Description>
+       <PercentRefundable>100</PercentRefundable>
+       <PortionRefundable>100</PortionRefundable>
+     </Deposit>
+     <FloorLevel>1</FloorLevel>
+     <Availability>
+       <VacateDate Month="3" Day="1" Year="2014" />
+       <VacancyClass>Unoccupied</VacancyClass>
+       <MadeReadyDate Month="3" Day="8" Year="2014" />
+     </Availability>
+   </ILS_Unit>
+   <ILS_Unit IDValue="1102" OrganizationName="ResMan" IDType="Number">
+     <Units>
+       <Unit>
+         <Identification IDValue="1102" OrganizationName="ResMan" IDType="Number" />
+         <MarketingName>1102</MarketingName>
+         <UnitType>B1</UnitType>
+         <UnitBedrooms>1</UnitBedrooms>
+         <UnitBathrooms>2</UnitBathrooms>
+         <MinSquareFeet>881</MinSquareFeet>
+         <MaxSquareFeet>881</MaxSquareFeet>
+         <MarketRent>925</MarketRent>
+         <UnitEconomicStatus>residential</UnitEconomicStatus>
+         <UnitOccupancyStatus>occupied</UnitOccupancyStatus>
+         <UnitLeasedStatus>leased</UnitLeasedStatus>
+         <FloorplanName>Two Bedroom, One Bath</FloorplanName>
+         <BuildingName>1</BuildingName>
+         <Address AddressType="property">
+           <AddressLine1>1538 Cable Ranch Rd.</AddressLine1>
+           <City>San Antonio</City>
+           <State>TX</State>
+           <PostalCode>78245</PostalCode>
+         </Address>
+       </Unit>
+     </Units>
+     <Pricing>
+       <MITS-OfferTerm>
+         <EffectiveRent>925.00</EffectiveRent>
+         <Term>12</Term>
+       </MITS-OfferTerm>
+     </Pricing>
+     <EffectiveRent Avg="925" Min="925" Max="925" />
+     <Deposit DepositType="deposit">
+       <Amount AmountType="Actual">
+         <ValueRange Exact="200.00" />
+       </Amount>
+       <Description>Escrow Deposit Paid In</Description>
+       <PercentRefundable>100</PercentRefundable>
+       <PortionRefundable>100</PortionRefundable>
+     </Deposit>
+     <FloorLevel>1</FloorLevel>
+     <Availability>
+       <VacancyClass>Occupied</VacancyClass>
+     </Availability>
+     <Amenity AmenityType="Other">
+       <Description>Faux Wood Living Areas</Description>
+     </Amenity>
+     <Amenity AmenityType="Other">
+       <Description>Faux Wood Entry/Kitchen</Description>
+     </Amenity>
+   </ILS_Unit>
+   <ILS_Unit IDValue="1103" OrganizationName="ResMan" IDType="Number">
+     <Units>
+       <Unit>
+         <Identification IDValue="1103" OrganizationName="ResMan" IDType="Number" />
+         <MarketingName>1103</MarketingName>
+         <UnitType>B1</UnitType>
+         <UnitBedrooms>1</UnitBedrooms>
+         <UnitBathrooms>2</UnitBathrooms>
+         <MinSquareFeet>881</MinSquareFeet>
+         <MaxSquareFeet>881</MaxSquareFeet>
+         <MarketRent>935</MarketRent>
+         <UnitEconomicStatus>residential</UnitEconomicStatus>
+         <UnitOccupancyStatus>occupied</UnitOccupancyStatus>
+         <UnitLeasedStatus>leased</UnitLeasedStatus>
+         <FloorplanName>Two Bedroom, One Bath</FloorplanName>
+         <BuildingName>1</BuildingName>
+         <Address AddressType="property">
+           <AddressLine1>1538 Cable Ranch Rd.</AddressLine1>
+           <City>San Antonio</City>
+           <State>TX</State>
+           <PostalCode>78245</PostalCode>
+         </Address>
+       </Unit>
+     </Units>
+     <Pricing>
+       <MITS-OfferTerm>
+         <EffectiveRent>935.00</EffectiveRent>
+         <Term>12</Term>
+       </MITS-OfferTerm>
+     </Pricing>
+     <EffectiveRent Avg="935" Min="935" Max="935" />
+     <Deposit DepositType="deposit">
+       <Amount AmountType="Actual">
+         <ValueRange Exact="200.00" />
+       </Amount>
+       <Description>Escrow Deposit Paid In</Description>
+       <PercentRefundable>100</PercentRefundable>
+       <PortionRefundable>100</PortionRefundable>
+     </Deposit>
+     <FloorLevel>1</FloorLevel>
+     <Availability>
+       <VacancyClass>Occupied</VacancyClass>
+     </Availability>
+     <Amenity AmenityType="Other">
+       <Description>Faux Wood Living Areas</Description>
+     </Amenity>
+     <Amenity AmenityType="Other">
+       <Description>Accent Walls</Description>
+     </Amenity>
+     <Amenity AmenityType="Other">
+       <Description>Wood Blinds</Description>
+     </Amenity>
+     <Amenity AmenityType="Other">
+       <Description>Faux Wood Entry/Kitchen</Description>
+     </Amenity>
+   </ILS_Unit>
+   <File FileID="f3464ee2-e0b9-431c-b461-5cbcaed906a8" Active="true">
+     <FileType>Photo</FileType>
+     <Name>Property.jpg</Name>
+     <Format />
+     <Src>https://resman.blob.core.windows.net/demo-public/1086df25-3a4d-4980-b977-bf6cdd30f19f.jpg</Src>
+     <Rank />
+   </File>
+   <File FileID="4296318a-955b-4cbb-b924-5d11dc5ba603" Active="true">
+     <FileType>Photo</FileType>
+     <Name>Studio.jpg</Name>
+     <Format />
+     <Src>https://resman.blob.core.windows.net/demo-public/12c9dfd6-6134-47e2-9a65-477f312b5d9a.jpg</Src>
+     <Rank />
+   </File>
+ </Property>
+</PhysicalProperty>
