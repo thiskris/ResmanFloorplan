@@ -12,7 +12,7 @@ require __DIR__ . '/../vendor/autoload.php';
 $dotenv = Dotenv::createImmutable(__DIR__ . '/../');
 $dotenv->load();
 
-class FloorPlanClient {
+class ResManV1Client {
     
     private $settings;
 
@@ -21,7 +21,7 @@ class FloorPlanClient {
         $this->settings = $settings;
     }
 
-    public function fetchFloorPlans() {
+    public function fetchMarketing() {
         try {
             $client = new Client();
             $baseUrl = $this->settings->getBaseUrl();
@@ -35,13 +35,22 @@ class FloorPlanClient {
             ]);
 
             $responseBody = $response->getBody()->getContents();
-            
+
             $xml = simplexml_load_string($responseBody);
-            $array = json_decode(json_encode($xml), true);
-            return $array;
+
+            if ($xml === false) {
+                echo "Failed to load XML string.";
+                foreach(libxml_get_errors() as $error) {
+                    echo "\t", $error->message;
+                }
+                exit;
+            }
+
+            return $xml->Response->PhysicalProperty->Property;
 
         } catch(RequestException $e) {
             $e->getMessage();
         }
+
     }
 }

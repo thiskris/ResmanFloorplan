@@ -2,16 +2,19 @@
 
 namespace Kris\Floorplan;
 
+use Kris\Floorplan\Marketing as FloorplanMarketing;
+
 class FloorPlanController {
     
-    private $ApiClient;
+    private $client;
 
-    public function __construct(FloorPlanClient $ApiClient) {
-        $this->ApiClient = $ApiClient;
+    public function __construct(ResManV1Client $client) {
+        $this->client = $client;
     }
 
-    public function getFloorPlans() {   
-        return $this->ApiClient->fetchFloorPlans();
+    public function getFloorplans() {   
+        $XMLContent = $this->client->fetchMarketing();
+        return new FloorplanMarketing($XMLContent);
     }
 
 }

@@ -1,0 +1,128 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    border: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+menu:not(article menu),
+ol:not(article ol),
+ul:not(article ul) {
+    list-style: none;
+}
+
+menu,
+ol,
+ul {
+    padding-left: 0;
+}
+
+article ol,
+article ul {
+    list-style-position: inside;
+}
+
+a {
+    /* Places underlines below the descenders */
+    text-underline-position: under;
+
+    /* Sets the thickness as a percentage of the font size */
+    text-decoration-thickness: 8;
+}
+
+/* html {
+    font-size: 62.5%;
+}*/
+
+html {
+    -webkit-text-size-adjust: none; /* for iOS Safari */
+    text-size-adjust: none; /* for other mobile browsers */
+}
+
+label,
+button,
+select,
+summary,
+[type=radio],
+[type=submit],
+[type=checkbox] {
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 400px;
+}
+
+.card-details {
+    padding: 10px;
+}
+
+.card-rooms {
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.card-availability {
+    font-weight: bold;
+    margin: auto;
+    margin-right: 0;
+}
+
+.card-main {
+    display: flex;
+    align-items: baseline;
+}
+
+.card-pricing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-img-container {
+    height: 275px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-no-img {
+    background-color: whitesmoke;
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
+
+
