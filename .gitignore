@@ -1,5 +1,5 @@
 .env
-.xml
+marketing.xml
 vendor
-test
-xmlreader
+test.php
+xmlreader.php
