@@ -34,19 +34,7 @@ class ResManV1Client {
                 ]
             ]);
 
-            $responseBody = $response->getBody()->getContents();
-
-            $xml = simplexml_load_string($responseBody);
-
-            if ($xml === false) {
-                echo "Failed to load XML string.";
-                foreach(libxml_get_errors() as $error) {
-                    echo "\t", $error->message;
-                }
-                exit;
-            }
-
-            return $xml->Response->PhysicalProperty->Property;
+            return $response->getBody()->getContents();
 
         } catch(RequestException $e) {
             $e->getMessage();

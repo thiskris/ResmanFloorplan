@@ -2,8 +2,6 @@
 
 namespace Kris\Floorplan;
 
-use Kris\Floorplan\Marketing as FloorplanMarketing;
-
 class FloorPlanController {
     
     private $client;
@@ -14,7 +12,6 @@ class FloorPlanController {
 
     public function getFloorplans() {   
         $XMLContent = $this->client->fetchMarketing();
-        return new FloorplanMarketing($XMLContent);
     }
 
 }

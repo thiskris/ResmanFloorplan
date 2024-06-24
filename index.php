@@ -4,8 +4,8 @@ require __DIR__ . '/vendor/autoload.php';
 
 use Dotenv\Dotenv;
 use Kris\Floorplan\ResManSettings;
-use Kris\Floorplan\FloorPlanController;
 use Kris\Floorplan\ResManV1Client;
+use Kris\Floorplan\Property;
 
 $dotenv = Dotenv::createImmutable(__DIR__);
 $dotenv->load();
@@ -23,9 +23,21 @@ $settings = new ResManSettings($formSettings);
 
 // Pass settings to API client
 $apiClient = new ResManV1Client($settings);
+//$response = $apiClient->fetchMarketing();
 
-// 
-$Property = new FloorPlanController($apiClient);
+$start = round(microtime(true) * 1000);
+
+$response = $apiClient->fetchMarketing();
+$property = new Property($response);
+$floorplans = $property->getUnits();
+
+$end = round(microtime(true) * 1000);
+$time = $end - $start;
+
+echo "Time to fetch and set data: " . $time . "ms \n"; 
+print_r($floorplans);
+
+
 
 
 
